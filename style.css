@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(166,169,227);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    width:  750px;
+    height: 772px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.card-content{
+    width: 600px;
+    height: 650px;
+    margin-left: 12rem;
+    margin-top: -10px;
+    /* background-color: brown; */
+}
+
+h3 {
+    margin-top: 0.5rem;
+    margin-left: 6rem;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 26px;
+    line-height: 24px;
+    color: #212529;
+}
+
+.plat {
+    margin-top: 1.8rem;
+    margin-left: 1.5rem;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    /* line-height: 24px; */
+    color: rgb(137,139,141);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 48px;
+    padding: 5px;
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    border: 3px solid rgb(113,93,169);
+    border-radius: 8px;
+}
+
+.button a:hover{
+    font-weight: bold;
+    color: rgb(113,93,169);
+}
+
+
+div.button a {
+    text-decoration: none;
+    color: #212529;
+    margin-left: 20px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 22px;
+}
+
+.creat {
+    margin-top: 2rem;
+    margin-left: -30px;
+    font-size: 23px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: lighter;
+    line-height: 24px;
+    color: rgb(99, 100, 101);
+}
+
+p.creat a {
+    font-weight: bold;
+    color: rgb(30,144,255);
+}
